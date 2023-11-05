@@ -7,8 +7,8 @@ for line in file_obj_csv:
     if len(columns) >= 10:
         temp = float(columns[9].replace('"', ''))
         print(temp)
+# CVS Temperature portion
 print("Loading golf.exe . . . \n ... \n ... \n ...")
-
 print("Welcome to the golf minigame!")
 player_1 = 1
 player_2 = 2
@@ -28,6 +28,7 @@ golf_score.write(f"""
 Score: 38    
 =========\n Thank you for playing!""")
 sys.exit
+# Golf Game portion. Get player input >> Output player input. Create 2 seperate files for Golf data and Golf score.
 
 
 
